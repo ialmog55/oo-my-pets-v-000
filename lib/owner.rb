@@ -29,4 +29,5 @@ class Owner
   def buy_cat(cat)
     cat.owner = self
     self.cats
+  end
 end
