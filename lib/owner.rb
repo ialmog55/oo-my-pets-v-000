@@ -56,7 +56,7 @@ class Owner
     end
   end
   def list_pets
-    @@all.each.select {|pet| pet.owner == self}
+    self.cats + self.dogs
   end
 
 end
