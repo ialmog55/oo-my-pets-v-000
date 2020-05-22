@@ -55,5 +55,8 @@ class Owner
       end
     end
   end
+  def list_pets
+    @@all.each.select {|pet| pet.owner = self}
+  end
 
 end
