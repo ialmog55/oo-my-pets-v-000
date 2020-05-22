@@ -6,7 +6,7 @@ class Owner
     @@all << self
   end
   def species
-   return "human" 
+   return "human"
   end
   def say_species
     self.species
