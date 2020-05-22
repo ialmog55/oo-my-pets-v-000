@@ -9,7 +9,7 @@ class Owner
    return "human"
   end
   def say_species
-    puts " I am #{self.species}."
+    return " I am a #{self.species}."
   end
   def self.all
     @@all
