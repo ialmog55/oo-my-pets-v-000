@@ -33,16 +33,8 @@ class Owner
       end
     end
       self.cats
-    end
-
-
-      end
-        def method_name
-
-        end
-
-
-      end
-    self.cats
   end
+
+
+      
 end
