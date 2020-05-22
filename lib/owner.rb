@@ -27,12 +27,9 @@ class Owner
     Dog.all.select {|dog| dog.owner == self}
   end
   def buy_cat(catname)
-    Cat.all.each do |cat|
-      if cat.name ==  catname
-        cat.owner = self.name
-      end
-    end
-      self.cats
+  Cat.new (catname,self.name)
+    
+  self.cats
   end
 
 
