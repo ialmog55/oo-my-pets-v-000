@@ -32,16 +32,16 @@ class Owner
         cat.owner = self.name
       end
     end
-      self.cats    
+      self.cats
     end
-        
-        
+
+
       end
         def method_name
-          
+
         end
-        
-        
+
+
       end
     self.cats
   end
