@@ -21,15 +21,15 @@ class Owner
     @@all=[]
   end
   def cats
-   Cat.all.select {|cat| cat.owner == self}
+   Cat.all.select {|cat| cat.owner == self.name}
   end
   def dogs
-    Dog.all.select {|dog| dog.owner == self}
+    Dog.all.select {|dog| dog.owner == self.name}
   end
   def buy_cat(catname)
 
   cat = Cat.new(catname,@name)
-  self.cats
+  self.cats 
   end
 
 
